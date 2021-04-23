@@ -1,0 +1,115 @@
+body {
+  align-items: center;
+  background-color: cyan;
+  font-family: cursive;
+}
+
+#inicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+.form-dificuldade {
+  margin-bottom: 20px;
+  width: 26%;
+}
+
+.categorias {
+  margin-top: 20px;
+  width: 10px;
+}
+
+.iniciar-jogo {
+  margin-top: 20px;
+  width: 26%;
+}
+
+#jogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 30px;
+}
+
+.div-fim {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 30px;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 250px;
+  border: none;
+}
+
+.iniciar-jogo {
+  background-color: #4592af;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+}
+
+.reiniciar {
+  margin-top: 20px;
+  /* margin-left: 540px; */
+  display: none;
+  background-color: #4592af;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+}
+
+.responder {
+  background-color: #4592af;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+}
+
+.avancar {
+  display: none;
+  background-color: #4592af;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+}
+
+.certo {
+  background-color: #4eaf45;
+  box-shadow: 0 0 8px #4eaf45;
+}
+
+.errado {
+  background-color: #af4545;
+  box-shadow: 0 0 8px #af4545;
+}
+
+.pontuacao {
+  margin-top: 20px;
+  color: rgb(10, 46, 122);
+}
